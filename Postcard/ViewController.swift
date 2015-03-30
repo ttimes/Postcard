@@ -29,6 +29,7 @@ class ViewController: UIViewController {
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         // Changed text to red color to better reflect online version
+        // Third comment add ition to further test git submission
         messageLable.hidden = false
         messageLable.text = enterMessageTextField.text
         messageLable.textColor = UIColor.redColor()
